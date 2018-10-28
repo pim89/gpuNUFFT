@@ -27,7 +27,7 @@ FIND_PACKAGE(CUDA REQUIRED)
 
 #Enable Mex File Generation
 #Searching MATLAB
-SET(GEN_MEX_FILES ON CACHE BOOL "Enable generation of Matlab MEX files.")
+SET(GEN_MEX_FILES OFF CACHE BOOL "Enable generation of Matlab MEX files.")
 
 if(GEN_MEX_FILES)
   if(WIN32)
